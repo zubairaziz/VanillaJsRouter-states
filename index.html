@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vanilla JS Router</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="./pages/home.js"></script>
+        <script src="./pages/about.js"></script>
+    </head>
+    <header id="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" onclick="navigate('/'); return false;">Home</a>
+                </li>
+                <li>
+                    <a href="#" onclick="navigate('/about'); return false;">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+    <footer id="footer"></footer>
+    <body>
+        <script src="js/router.js"></script>
+    </body>
+</html>
